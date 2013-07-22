@@ -21,7 +21,7 @@
     
     <build>
         <sourceDirectory>src</sourceDirectory>
-        
+        <pluginManagement>
         <plugins>
             <!-- first download an unpack the native libraries -->
             <plugin>
@@ -142,5 +142,6 @@
                 </executions>
             </plugin>
         </plugins>
+        </pluginManagement>
     </build>
 </project>
